@@ -1,0 +1,67 @@
+BODY {
+    color: green;
+    background: white url(Draft.jpg) no-repeat fixed center center;
+}
+H1, H2, H3, H4, H5, H6 {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+        body {
+            margin: 0;
+            background-color: #ddd;
+        }
+
+        .a4 {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 20px auto;
+            background: white;
+            padding: 20mm;
+            box-sizing: border-box;
+        }
+ADDRESS {
+    font-size: 0.9em;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+BLOCKQUOTE {
+    background-color: silver;
+}
+UL {
+    list-style: circle url(Apple.jpg) outside;
+}
+UL B {
+    color: rgb(155,0,0);
+}
+A {
+    font-size: 0.9em;
+    color: green; /* Thầy đã sửa lỗi color-green ở đây */
+}
+A:hover {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.Special {
+    color: rgb(153,102,6);
+    font-weight: bold;
+}
+DIV.Article {
+    padding: 0.5em;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(252,221,163);
+    width: 250px;
+    float: right;
+}
+UL {
+    list-style: circle url("") outside;
+}
+
+/* Hoặc viết tách riêng ra như thế này cho dễ quản lý: */
+UL {
+    list-style-type: circle;
+    list-style-image: url("hinh/Apple.jpg");
+    list-style-position: outside;
+}
