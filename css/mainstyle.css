@@ -1,0 +1,58 @@
+*{
+margin:0;
+padding:0;
+}
+#container
+{ border:1px solid blue;
+background:gray;
+float:left;
+top: 60px;
+text-indent:0px;
+}
+#container ul
+{
+float:left;
+list-style:none
+}
+#container ul li
+{
+position:relative;
+float:left;
+}
+#container ul li a
+{
+display:block;
+color:black;
+font-weight:bold;
+text-decoration:none;
+padding:.3em 6px;
+}
+#container li a:hover
+{color:white;
+background:orange;
+}
+#container li ul
+{position:absolute;
+display:none;
+width:10em
+}
+#container li:hover ul {
+display:block;
+}
+#container ul li ul li{
+width:100%;
+border:1px solid green
+}
+body {
+    background-color: yellow;
+    margin: 0; /* Xóa lề mặc định của trình duyệt để menu sát mép */
+    padding: 0; 
+}
+
+/* Định dạng cho khung chứa thanh menu của em */
+.ten-class-menu-cua-em { 
+    width: 100%; /* Kéo dài 100% chiều ngang */
+    display: block; /* Ép hiển thị dạng block chiếm trọn 1 hàng */
+    
+    /* ... giữ nguyên các code màu nền xám, viền của em ở đây ... */
+}
