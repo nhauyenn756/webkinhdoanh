@@ -44,7 +44,7 @@ width:100%;
 border:1px solid green
 }
 body {
-    background-color: yellow;
+    background-color: lightblue;
     margin: 0; /* Xóa lề mặc định của trình duyệt để menu sát mép */
     padding: 0; 
 }
