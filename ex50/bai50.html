@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Expense Report</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo" style="text-align: center;">
+        <img src="DeLong.jpg" alt="DeLong Enterprises">
+    </div>
+
+    <h2>Travel Expense Report</h2>
+
+    <hr>
+
+    <form>
+
+        <div class="row">
+            <ol type="1">
+               <li> Firstname: <input type="text" name="firstname"> Last Name: <input type="text" name="lastname"></li> 
+               <li> Social Security Number:<input type="text" name="ssn"> </li>
+               <li>  Department:
+                <select name="department">
+                <option>Accounting</option>
+                <option>Marketing</option>
+                <option>Sales</option>
+                <option>Human Resources</option>
+            </select></li>
+            <li> Describe the purpose of your trip.
+                <textarea name="purpose"></textarea>
+            </li>
+            <li>Itemize your travel expenses </li>
+            </ol>
+        </div>
+
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Amount</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <input class="date" type="date">
+                </td>
+
+                <td>
+                    <input class="description" type="text">
+                </td>
+
+                <td>
+                    <select>
+                        <option>Meal</option>
+                        <option>Hotel</option>
+                        <option>Transportation</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+
+                <td>
+                    <input class="amount" type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input class="date" type="date">
+                </td>
+
+                <td>
+                    <input class="description" type="text">
+                </td>
+
+                <td>
+                    <select>
+                        <option>Meal</option>
+                        <option>Hotel</option>
+                        <option>Transportation</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+
+                <td>
+                    <input class="amount" type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input class="date" type="date">
+                </td>
+
+                <td>
+                    <input class="description" type="text">
+                </td>
+
+                <td>
+                    <select>
+                        <option>Meal</option>
+                        <option>Hotel</option>
+                        <option>Transportation</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+
+                <td>
+                    <input class="amount" type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input class="date" type="date">
+                </td>
+
+                <td>
+                    <input class="description" type="text">
+                </td>
+
+                <td>
+                    <select>
+                        <option>Meal</option>
+                        <option>Hotel</option>
+                        <option>Transportation</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+
+                <td>
+                    <input class="amount" type="text">
+                </td>
+            </tr>
+        </table>
+
+        <div class="row">
+        
+
+            <input type="radio" name="receipt" value="yes">
+            Yes
+
+            <input type="radio" name="receipt" value="no">
+            No
+        </div>
+
+        <div class="buttons">
+            <input type="submit" value="Submit travel expenses">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+
+    <div class="footer">
+        Questions? Contact Debbie Larson in Accounting (ext. 2150).
+    </div>
+
+</div>
+
+</body>
+</html>
